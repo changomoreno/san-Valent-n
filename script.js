@@ -3,14 +3,11 @@ const container = document.getElementById('flowerContainer');
 const messageElement = document.querySelector('.message-text');
 
 const poemLines = [
-    "Hoy dia del amor qusiera estar contigo...",
-    "Aunque hoy el calendario me recuerde que no estás,",
-    "mi corazón te siente cerca, mucho más que ayer...",
-    "La distancia es solo un número, un simple esperar,",
-    "porque en cada pensamiento, te vuelvo a tener...",
-    "No importa el mapa, ni el reloj, ni este inmenso mar,",
-    "cada día te amo más, con paciencia y esperanza.",
-    "Feliz San Valentín, mi amor, allá donde estés,",
+    "hoy el calendario me recuerde que no estás,",
+    "pero mi corazón te siente cerca",
+    "No importa el mapa, ni el reloj,",
+    "cada día te amo más,",
+    "Feliz San Valentín mi amor,",
     "que mi alma te acompaña y sueña con tu abrazo.",
 ];
 
@@ -71,3 +68,4 @@ function createFlower() {
         flowerWrapper.remove();
     }, parseFloat(flowerWrapper.style.animationDuration) * 1000 + 500);
 }
+
