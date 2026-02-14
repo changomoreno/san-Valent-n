@@ -3,12 +3,12 @@ const container = document.getElementById('flowerContainer');
 const messageElement = document.querySelector('.message-text');
 
 const poemLines = [
-    "hoy el calendario me recuerde que no estás,",
-    "pero mi corazón te siente cerca",
-    "No importa el mapa, ni el reloj,",
+    "hoy el calendario me recuerde que no estás...",
+    "pero mi corazón te siente cerca,",
+    "No importa el mapa, ni el reloj",
     "cada día te amo más,",
-    "mi alma te acompaña y sueña con tu abrazo.",
-    "Feliz San Valentín mi amor,",
+    "mi alma te acompaña y sueña con tu abrazo,",
+    "Feliz San Valentín mi amor.",
  
 ];
 
@@ -69,6 +69,7 @@ function createFlower() {
         flowerWrapper.remove();
     }, parseFloat(flowerWrapper.style.animationDuration) * 1000 + 500);
 }
+
 
 
 
