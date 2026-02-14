@@ -7,8 +7,9 @@ const poemLines = [
     "pero mi corazón te siente cerca",
     "No importa el mapa, ni el reloj,",
     "cada día te amo más,",
-    "Feliz San Valentín mi amor,",
     "mi alma te acompaña y sueña con tu abrazo.",
+    "Feliz San Valentín mi amor,",
+ 
 ];
 
 let currentLineIndex = 0;
@@ -68,5 +69,6 @@ function createFlower() {
         flowerWrapper.remove();
     }, parseFloat(flowerWrapper.style.animationDuration) * 1000 + 500);
 }
+
 
 
